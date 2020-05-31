@@ -7,7 +7,10 @@
 ###Have a search window pop up with videos and documnets pertaining to the car.
 ###
 
-
+import bs4
+import urllib
 print("Thank you for using my software.")
 print("Please enter your vin number.")
-VIN = input("VIN")
+vin = input("VIN")
+
+print(vin)
