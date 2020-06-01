@@ -9,8 +9,13 @@
 
 import bs4
 import urllib
+
+def split(vin):
+    return [char for char in vin]
 print("Thank you for using my software.")
 print("Please enter your vin number.")
-vin = input("VIN")
-
-print(vin)
+vin = input("Please enter the VIN: ")
+charVIN = []
+charVIN = split(vin)
+print(split(vin))
+print(charVIN)
